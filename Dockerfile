@@ -2,8 +2,6 @@ FROM tomcat:9.0
 MAINTAINER Sean Óg Crudden
 ENV TRANSITCLOCK_PROPERTIES /usr/local/transitclock/config/transitclock.properties
 # COPY path-to-your-application-war path-to-webapps-in-docker-tomcat
-ADD web.war web.war
-ADD api.war api.war
 
 RUN wget http://stedolan.github.io/jq/download/linux64/jq
 

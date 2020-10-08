@@ -1,6 +1,6 @@
 
 cd transitime
-
+mvn clean:clean
 mvn install -DskipTests
 
 cd ..
